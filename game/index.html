@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>WAYANG CLASH — Arjuna vs Rahwana</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #180a04; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #f3e3b3;
+  }
+  canvas {
+    display: block;
+    width: min(1280px, 100vw);
+    height: auto;
+    background: #2a1206;
+  }
+  #status {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #e8b64c;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<p id="status">WAYANG CLASH — Arjuna vs Rahwana</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
